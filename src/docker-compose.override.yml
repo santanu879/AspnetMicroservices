@@ -5,7 +5,7 @@ services:
     container_name: catalogdb
     restart: always
     ports:
-      - "6379:6379"
+      - "27017:27017"
     volumes:
       - mongo_data:/data/db
 
@@ -13,7 +13,7 @@ services:
     container_name: basketdb
     restart: always
     ports:
-      - "27017:27017"
+      - "6379:6379"
 
   discountdb:
     container_name: discountdb
