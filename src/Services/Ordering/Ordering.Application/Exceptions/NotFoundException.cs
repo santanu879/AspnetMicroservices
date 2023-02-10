@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ordering.Application.Exception
+namespace Ordering.Application.Exceptions
 {
     public class NotFoundException:ApplicationException
     {
